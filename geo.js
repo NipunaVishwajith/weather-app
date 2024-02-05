@@ -4,6 +4,7 @@ const getGeo = (Location)=>{
         const url = 'http://api.openweathermap.org/geo/1.0/direct?q='+Location+'&limit=5&appid=12555c871127108af1ac9c11b449398b';
         axios.get(url)
           .then(function (response) {
+            //git version
             // handle success
             // const country = response.data[0].country;
             // const lat = response.data[0].lat;
